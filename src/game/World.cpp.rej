@@ -1,0 +1,16 @@
+***************
+*** 63,68 ****
+  #include "Transports.h"
+  #include "CreatureEventAIMgr.h"
+  #include "ScriptMgr.h"
+  
+  INSTANTIATE_SINGLETON_1(World);
+  
+--- 63,69 ----
+  #include "Transports.h"
+  #include "CreatureEventAIMgr.h"
+  #include "ScriptMgr.h"
++ #include "ProgressBar.h"
+  
+  INSTANTIATE_SINGLETON_1(World);
+  

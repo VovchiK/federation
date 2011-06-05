@@ -1,0 +1,2 @@
+/usr/bin/ar cr liboregonframework.a  CMakeFiles/oregonframework.dir/Policies/ObjectLifeTime.cpp.o CMakeFiles/oregonframework.dir/Utilities/EventProcessor.cpp.o
+/usr/bin/ranlib liboregonframework.a

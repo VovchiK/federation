@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/vmap_assembler.dir/VMapAssembler.cpp.o  -o vmap_assembler -rdynamic ../../collision/libcollision.a ../../../dep/src/g3dlite/libg3dlite.a -lz -Wl,-rpath,:::::::::::::: 

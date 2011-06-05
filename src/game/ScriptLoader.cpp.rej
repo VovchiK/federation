@@ -1,0 +1,21 @@
+***************
+*** 388,393 ****
+  void AddScripts()
+  {
+  #ifdef SCRIPTS
+  //    AddSC_custom_example();
+  //    AddSC_custom_gossip_codebox();
+  //    AddSC_test();
+--- 393,404 ----
+  void AddScripts()
+  {
+  #ifdef SCRIPTS
++ 
++     //Custom
++     AddSC_npc_teleport();
++     QueryResult_AutoPtr result;
++     LoadNpcTele(result);
++ 
+  //    AddSC_custom_example();
+  //    AddSC_custom_gossip_codebox();
+  //    AddSC_test();
