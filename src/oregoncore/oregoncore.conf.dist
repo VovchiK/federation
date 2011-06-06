@@ -48,14 +48,14 @@ ConfVersion=2011020301
 #
 ###############################################################################
 
-RealmID = 1
-DataDir = "."
-LogsDir = ""
-LoginDatabaseInfo     = "127.0.0.1;3306;oregon;oregon;realmd"
-WorldDatabaseInfo     = "127.0.0.1;3306;oregon;oregon;world"
-CharacterDatabaseInfo = "127.0.0.1;3306;oregon;oregon;characters"
+RealmID = 2
+DataDir = "/home/bc/bc_build/"
+LogsDir = "/home/bc/bc_build/log/"
+LoginDatabaseInfo     = "127.0.0.1;3306;root;oregon;auth"
+WorldDatabaseInfo     = "127.0.0.1;3306;root;oregon;bc_world"
+CharacterDatabaseInfo = "127.0.0.1;3306;root;oregon;bc_characters"
 MaxPingTime = 30
-WorldServerPort = 8085
+WorldServerPort = 8086
 BindIP = "0.0.0.0"
 
 ###############################################################################
@@ -487,7 +487,7 @@ GmLogTimestamp = 0
 GmLogPerAccount = 0
 RaLogFile = "ra_commands.log"
 ArenaLogFile = ""
-LogColors = ""
+LogColors = "13 11 9 5"
 EnableLogDB = 0
 DBLogLevel = 2
 LogDB.Char   = 0
@@ -847,7 +847,7 @@ ExternalMailInterval = 1
 SkillChance.Prospecting = 0
 Event.Announce = 0
 BeepAtStart = 1
-Motd = "wow-federation"
+Motd = "Welcome to WoW-Federation Server."
 Server.LoginInfo = 0
 
 ###############################################################################
